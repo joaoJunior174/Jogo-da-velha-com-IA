@@ -1,0 +1,90 @@
+@import "//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css";
+
+
+html {
+  height: 100%;
+}
+body {
+  background: 
+    -webkit-linear-gradient(rgba(5, 610, 255, 0.4), rgba(135, 60, 255, 0.0) 80%),
+    -webkit-linear-gradient(-45deg, rgba(120, 155, 255, 0.9) 25%, rgba(255, 160, 65, 0.9) 76%);
+}
+.cf:before, .cf:after {
+  content:" ";
+  display: table;
+}
+.cf:after {
+  clear: both;
+}
+.cf {
+  *zoom: 1;
+}
+.menu {
+  list-style:none;
+  margin: 50px auto;
+  width: 800px;
+  width: -moz-fit-content;
+  width: -webkit-fit-content;
+  width: fit-content;
+}
+.menu > li {
+  background: #34495e;
+  left: 25%;
+  top:10%;
+  float: left;
+  position: absolute;
+  -webkit-transform: skewX(25deg);
+}
+.menu a {
+  display: block;
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-family: Arial, Helvetica;
+  font-size: 14px;
+}
+
+.menu > li > a {
+  -webkit-transform: skewX(-25deg);
+  padding: 1em 2em;
+}
+
+*, *::before, *::after{
+  box-sizing: border-box; 
+  -webkit-box-sizing: border-box; 
+  -moz-box-sizing: border-box; 
+  -o-box-sizing: border-box;  
+}
+
+#container {
+  width: 300px;
+  margin: 0 auto;
+}
+
+#div_p {
+
+ position: relative;
+ top: 100px;
+
+}
+.row div {
+  border-left: 3px solid #000;
+  border-bottom: 3px solid #000;
+  float: left;
+  width: 100px;
+  height: 100px;
+  line-height: 2;
+  font-size: 3em;
+  text-align: center;
+
+}
+
+.row div:first-child {
+  position: relative;
+  border-left: 0;
+  border-top: 0;
+}
+
+.last div {
+  border-bottom: none;
+}
