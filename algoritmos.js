@@ -1,4 +1,4 @@
-//Essa classe guarda todas as possibilidades que possam existir para um determinado
+//Essa classe guarda todas as possibilidades que possam existir para um determinado estado
 class Estado {
   constructor(pos1, pos2,pos3, pos4,pos5, pos6,pos7, pos8,pos9) {
     this.pos1 = pos1;
